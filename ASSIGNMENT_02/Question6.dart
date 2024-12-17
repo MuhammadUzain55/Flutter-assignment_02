@@ -13,9 +13,11 @@ void main() {
     "Afghanistan": {
       "Capitalcity": "Kabul",
       "currency": "AFN",
-      "laanguage": "Pashto"
+      "language": "Pashto"
     },
     "India": {"Capitalcity": "Delhi", "currency": "INR", "language": "Hindi"}
   };
-  print(world["pakistan"]);
+  String country = "Pakistan";
+  print(
+      "$country Capital city is ${world[country]["Capitalcity"]} and currency is ${world[country]["currency"]}");
 }
