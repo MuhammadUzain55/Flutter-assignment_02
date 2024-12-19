@@ -3,5 +3,5 @@ void main() {
 
   
   List names = ["Shehroz", "Faraz", "Sameer", "Murtaza", "Haneef", "Salman"];
-  print(names);
+  names.forEach((name) => print(name));
 }
